@@ -1,0 +1,60 @@
+body {
+    padding: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #0067B0;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+#textbox {
+    border: 2px solid #0067B0;
+    font-size: 25px;
+    width: 99.2%;
+    border-radius: 10px;
+}
+
+P {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0067B0;
+    COLOR: white;
+    padding: 10px;
+    margin: 35px 192px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width:500px) {
+
+    body {
+
+        margin: 80px 0px;
+        padding: 5px 0px;
+    }
+
+    h1 {
+        font-size: 31px;
+        font-weight: bolder;
+    }
+
+    textarea#textbox {
+        width: 98%;
+        height: 350px;
+        border: 3px solid #0067B0;
+    }
+
+    p {
+
+        margin: 22px 0px;
+        padding: 15px;
+        font-size: 30px;
+    }
+
+}
